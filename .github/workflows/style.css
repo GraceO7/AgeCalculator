@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: linear-gradient(rgb(173, 185, 230), rgb(127, 127, 252));
+    padding: 10px;     
+    padding-top: 80px;
+
+}
+.container{
+    min-height: 70vh;
+}
+h1{
+    margin-left: 60px;
+    line-height: 2;
+}
+.wrapper{
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.3);
+border-radius: 10px;
+display: flex;
+margin: 30px 0;
+align-items: center;
+width: 400px;
+}
+input{
+    flex: 1;
+    margin-right: 20px;
+    padding: 14px 20px;
+    border: 0;
+    font-size: 1em;
+    border-radius: 5px;
+    
+}
+.wrapper input::-webkit-calender-picker-indicator{
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+position: absolute;
+width: auto;
+background-position: calc(100% - 10px);
+background-size: 30px;
+cursor: pointer;
+height: auto;
+}
+.wrapper button{
+    padding:  10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    background-color: tomato;
+    font-size: .7em;
+}
